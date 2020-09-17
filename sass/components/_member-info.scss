@@ -1,0 +1,46 @@
+.member-info {
+  padding: 30px 0px 30px 0px;
+}
+.member-name {
+  margin: 0px 0px 10px 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $color_black;
+}
+.member-profession {
+  margin: 0px 0px 16px 0px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $color_grey;
+}
+.member-social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.member-social-link {
+  color: $color_white;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+.member-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: $color_social_icons;
+  padding: 12px;
+  transition: $transition_all;
+  &:hover {
+    background: $color_blue;
+    fill: currentColor;
+  }
+}

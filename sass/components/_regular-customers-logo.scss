@@ -1,0 +1,20 @@
+.regular-customers-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 170px;
+  border: 1px solid $color_social_icons;
+  border-radius: 4px;
+  color: $color_social_icons;
+  transition: $transition_all;
+  &:hover {
+    cursor: pointer;
+    border-color: $color_blue;
+    color: $color_blue;
+  }
+}
+.regular-customers-logo svg {
+  fill: currentColor;
+  transition: $transition_all;
+}

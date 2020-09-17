@@ -1,0 +1,34 @@
+.portfolio-types {
+  padding: 94px 0px 50px 0px;
+}
+.portfolio-types h2 {
+  display: none;
+}
+
+.portfolio-types ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.portfolio-types li + li {
+  margin-left: 8px;
+}
+.portfolio-types-link {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $color_black;
+  background: $color_light_grey;
+  border-radius: 4px;
+  padding: 6px 22px;
+  transition: $transition_all;
+  &:hover {
+    background: $color_blue;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: $color_white;
+  }
+}
