@@ -1,22 +1,22 @@
 .portfolio-examples {
   background: $color_white;
   padding-bottom: 64px;
-}
-.portfolio-examples h2 {
-  display: none;
-}
-.portfolio-examples ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.portfolio-examples li {
-  background: $color_white;
-  border: 1px solid $color_portfolio_examples_border;
-  margin-bottom: 30px;
-}
-.portfolio-image {
-  position: relative;
-  overflow: hidden;
+  h2 {
+    display: none;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  li {
+    background: $color_white;
+    border: 1px solid $color_portfolio_examples_border;
+    margin-bottom: 30px;
+  }
+  .portfolio-image {
+    position: relative;
+    overflow: hidden;
+  }
 }

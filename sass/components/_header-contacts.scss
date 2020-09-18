@@ -1,34 +1,33 @@
 .navigation-contacts {
   align-self: center;
   margin-left: auto;
-}
-
-.navigation-contacts a {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: $color_grey;
-  &:hover {
-    color: $color_blue;
+  a {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: $color_grey;
+    &:hover {
+      color: $color_blue;
+    }
   }
-}
-.header-contacts {
-  display: flex;
-  flex-direction: row;
-}
-.header-contacts a {
-  position: relative;
-  align-self: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  transition: $transition_all;
-}
-.header-contacts > li + li {
-  margin-left: 30px;
-}
-.header-contacts svg {
-  margin-right: 10px;
-  fill: currentColor;
+  .header-contacts {
+    display: flex;
+    flex-direction: row;
+    a {
+      position: relative;
+      align-self: center;
+      padding-top: 32px;
+      padding-bottom: 32px;
+      transition: $transition_all;
+    }
+    > li + li {
+      margin-left: 30px;
+    }
+    svg {
+      margin-right: 10px;
+      fill: currentColor;
+    }
+  }
 }

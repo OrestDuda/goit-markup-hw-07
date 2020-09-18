@@ -9,17 +9,19 @@
   color: #ffffff;
   padding: 63px 24px;
   transition: $transition_all;
+  p {
+    margin: 0px;
+  }
 }
-.portfolio-image-overlay p {
-  margin: 0px;
-}
-.portfolio-examples li:hover .portfolio-image-overlay {
-  transform: translatey(-100%);
-}
-.portfolio-examples .container li {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.portfolio-examples .container li:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+.portfolio-examples {
+  li {
+    transition: $transition_all;
+    &:hover .portfolio-image-overlay {
+      transform: translatey(-100%);
+    }
+    &:hover {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+  }
 }

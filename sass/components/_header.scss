@@ -2,9 +2,9 @@
   background: $color_white;
   border-bottom: 1px solid $color_header_border;
   margin-bottom: -1px;
-}
-.header .container {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+  }
 }

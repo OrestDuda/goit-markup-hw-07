@@ -13,8 +13,8 @@
     border-color: $color_blue;
     color: $color_blue;
   }
-}
-.regular-customers-logo svg {
-  fill: currentColor;
-  transition: $transition_all;
+  svg {
+    fill: currentColor;
+    transition: $transition_all;
+  }
 }

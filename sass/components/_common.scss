@@ -25,16 +25,23 @@ ul {
   margin: auto;
   width: 1200px;
   padding: 0px 15px 0px 15px;
+  > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
-.our-work > .container > h2,
-.our-team > .container > h2,
-.regular-customers > .container > h2 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $color_black;
-  margin: 0px 0px 50px 0px;
+.our-work,
+.our-team,
+.regular-customers {
+  h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $color_black;
+    margin: 0px 0px 50px 0px;
+  }
 }
